@@ -1,1 +1,17 @@
-
+{
+  "name": "eva-beauty-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for nail salon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
